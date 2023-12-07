@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form action="index.php" method="post">
+    <form action="18-associated-array.php" method="post">
         <label>Enter country</label>
         <input type="text" name="capital_name">
         <input type="submit" value="submit">

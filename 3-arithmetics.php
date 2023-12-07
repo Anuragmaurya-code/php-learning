@@ -1,7 +1,7 @@
 <?php
 // Arithmetic operation
     $x=3;
-    $y=2;
+    $y=3;
     $z=null;
     // $z=$x+$y;
     // $z=$x*$y;

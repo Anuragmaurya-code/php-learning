@@ -20,6 +20,7 @@ $second = 0;
 $running = true;
 while ($running) {
     if (isset($_POST["stop"])) {
+        echo"shutted";
         $running = false;
     } else {
         $second += 1;

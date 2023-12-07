@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="index.php" method="post">
+    <form action="4-GET-POST.php" method="post">
         <label>username:</label><br>
         <input type="text" name="username"  placeholder="enter username"><br>
         <label>password:</label><br>

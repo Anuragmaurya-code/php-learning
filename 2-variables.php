@@ -15,7 +15,7 @@
     echo "<br> Email is {$email}";
     echo "<br> age is {$age}";
     echo "<br> gpa is {$gpa}";
-    echo"<br> I have \${$money}";// \$ is an escape sequence
+    echo"<br> I have \${$money}";// \ is an escape sequence
     echo"<br> Employee status : {$employed}";
     echo"<br> Online status : {$online}";
 
