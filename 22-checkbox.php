@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="index.php" method="post">
+    <form action="22-checkbox.php" method="post">
         <input type="checkbox" name="foods[]" value="Pizza">Pizza<br>
         <input type="checkbox" name="foods[]" value="Hamburger">Hamburger<br>
         <input type="checkbox" name="foods[]" value="Hotdog">Hotdog<br>

@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="index.php" method="POST">
+    <form action="25-filter-validate.php" method="POST">
         <label>Username</label>
         <input type="text" name="username"><br><br>
         <label>Age</label>
@@ -24,7 +24,7 @@ $username=filter_input(INPUT_POST,"username",FILTER_SANITIZE_SPECIAL_CHARS);
 echo $username;
 
 $age=filter_input(INPUT_POST,"age",FILTER_SANITIZE_NUMBER_INT);
-echo "<br>".$age;
+echo $age;
 
 $email=filter_input(INPUT_POST,"email",FILTER_SANITIZE_EMAIL);
 echo "<br>".$email;

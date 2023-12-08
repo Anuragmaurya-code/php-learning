@@ -26,5 +26,7 @@ $capitals = array(
 foreach($capitals as $key=>$value){
     echo"{$key} = {$value}<br>";
 }
-echo $capitals[$_POST['capital_name']]
+$key=array_keys($capitals);
+echo $capitals[$_POST['capital_name']];
+
 ?>

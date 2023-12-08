@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="index.php" method="post">
+    <form action="20-form.php" method="post">
         <label>username</label>
         <input type="text" name="username"><br>
         <label>password</label>

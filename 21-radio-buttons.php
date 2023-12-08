@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <form action="index.php" method="post">
+    <form action="21-radio-buttons.php" method="post">
         <input type="radio" name="credit_card" value="visa">Visa<br>
         <input type="radio" name="credit_card" value="Master card">Master card<br>
         <input type="radio" name="credit_card" value="American Express">Americal Express<br>
